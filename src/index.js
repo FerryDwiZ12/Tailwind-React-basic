@@ -1,13 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
+import FlexboxLayout from "./pages/FlaxboxLayout";
+import GridLayout from "./pages/GridLayout";
+import Headers from "./Components/layout/Headers";
+import MainLayout from "./pages/MainLayout";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <MainLayout />
   </React.StrictMode>
 );
 
